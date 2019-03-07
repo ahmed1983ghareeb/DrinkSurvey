@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ResultsActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textViewResults"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:text="Results" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/textViewRDrink"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Drink"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:id="@+id/textViewApple"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Apple"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:id="@+id/textViewOrange"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Orange"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:id="@+id/textViewMango"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mango"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:id="@+id/textViewCoca"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Coca"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:id="@+id/textViewSprite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sprite"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:id="@+id/textViewSevenUp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Seven Up"
+                android:layout_weight="1"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/textViewTotal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Total"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:id="@+id/textViewTotalApple"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:id="@+id/textViewTotalOrange"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:id="@+id/textViewTotalMango"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:id="@+id/textViewTotalCoca"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:id="@+id/textViewTotalSprite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:id="@+id/textViewTotalSevenUp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-"
+                android:layout_weight="1"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/textViewPercentage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Percentage" />
+
+            <TextView
+                android:id="@+id/textViewPApple"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:id="@+id/textViewPOrange"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:id="@+id/textViewPMango"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:id="@+id/textViewPCoca"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:id="@+id/textViewPSprite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:id="@+id/textViewPSevenUp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-"
+                android:layout_weight="1"/>
+
+        </TableRow>
+
+    </TableLayout>
+
+    <Button
+        android:id="@+id/btnReturn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="return"
+        android:layout_gravity="end"/>
+</LinearLayout>

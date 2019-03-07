@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Drink Survey</string>
+    <array name="drink_type">
+        <item>Juice</item>
+        <item>Soft Drink</item>
+    </array>
+</resources>
